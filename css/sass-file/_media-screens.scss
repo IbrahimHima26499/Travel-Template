@@ -1,0 +1,14 @@
+.container {
+  @include breakpoints(small) {
+    width: 750px;
+  }
+  @include breakpoints(medium) {
+    width: 970px;
+  }
+  @include breakpoints(large) {
+    width: 1170px;
+  }
+  @include breakpoints(x-large) {
+    width: 1370px;
+  }
+}
